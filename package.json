@@ -1,0 +1,16 @@
+{
+  "name": "passport-smugmug",
+  "version": "0.1.0",
+  "description": "SmugMug authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-smugmug.git"
+  },
+  "main": "./lib/passport-smugmug",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "smugmug", "auth", "authn", "authentication", "identity"]
+}
