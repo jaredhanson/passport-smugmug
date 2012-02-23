@@ -79,6 +79,12 @@ vows.describe('SmugMugStrategy').addBatch({
         assert.equal(profile.id, '1234');
         assert.equal(profile.displayName, 'Fred Nerk');
       },
+      'should set raw property' : function(err, profile) {
+        assert.isString(profile._raw);
+      },
+      'should set json property' : function(err, profile) {
+        assert.isObject(profile._json);
+      },
     },
   },
   
